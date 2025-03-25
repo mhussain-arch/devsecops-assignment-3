@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2870589e-9bcd-43d5-93f5-24c43a437b16" name="admin@VM 2025-03-26 00:10:37" runUser="vm\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-03-26T00:10:37.4612235+05:00" queuing="2025-03-26T00:10:37.4612239+05:00" start="2025-03-26T00:10:36.5719098+05:00" finish="2025-03-26T00:10:37.4732244+05:00" />
+  <TestSettings name="default" id="8599eae2-bb83-442c-be60-efbd8badb309">
+    <Deployment runDeploymentRoot="admin_VM_2025-03-26_00_10_37" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="692075ff-09ec-4a01-beb4-ce404fcf7c00" testId="b5f85a66-7ef7-133d-3262-7e57a1c8461f" testName="GenerateQR.Tests.QRGeneratorTests.Generate_ShouldReturnCorrectQRCode" computerName="VM" duration="00:00:00.1352687" startTime="2025-03-26T00:10:37.3608075+05:00" endTime="2025-03-26T00:10:37.3608225+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="692075ff-09ec-4a01-beb4-ce404fcf7c00" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GenerateQR.Tests.QRGeneratorTests.Generate_ShouldReturnCorrectQRCode" storage="c:\users\admin\desktop\devsecops-assignment-3\tests\generateqr.tests\bin\debug\net8.0\generateqr.tests.dll" id="b5f85a66-7ef7-133d-3262-7e57a1c8461f">
+      <Execution id="692075ff-09ec-4a01-beb4-ce404fcf7c00" />
+      <TestMethod codeBase="C:\Users\admin\Desktop\devsecops-assignment-3\tests\GenerateQR.Tests\bin\Debug\net8.0\GenerateQR.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="GenerateQR.Tests.QRGeneratorTests" name="Generate_ShouldReturnCorrectQRCode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b5f85a66-7ef7-133d-3262-7e57a1c8461f" executionId="692075ff-09ec-4a01-beb4-ce404fcf7c00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.14)&#xD;
+[xUnit.net 00:00:00.07]   Discovering: GenerateQR.Tests&#xD;
+[xUnit.net 00:00:00.10]   Discovered:  GenerateQR.Tests&#xD;
+[xUnit.net 00:00:00.10]   Starting:    GenerateQR.Tests&#xD;
+[xUnit.net 00:00:00.28]   Finished:    GenerateQR.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
